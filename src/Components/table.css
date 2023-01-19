@@ -1,0 +1,101 @@
+.recent-oder{
+    display: flex;
+}
+.right{
+    margin-top: 1rem;
+    padding-left: 2rem;
+
+
+}
+.sale-analytics{
+    /* margin-top: -2.2rem; */
+    margin-left: 2rem;
+}
+
+.sale-analytics h2{
+    margin-bottom: 0.8rem;
+}
+.sale-analytics .item-offline{
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+    padding: 0.1rem 0.6rem 0.2rem 1.2rem;
+    border-radius: var(--card-padding);
+    box-shadow: var(--box-shadow);
+    transition: all 300 ease;
+}
+.sale-analytics .item-offline:hover{
+    box-shadow: none;
+}
+.info-sale {
+    display: grid;
+
+}
+.show-all{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    /* color: var(--color-primry); */
+    font-weight: 600;
+}
+.show-all:hover {
+   
+    color: var(--color-primry);
+}
+
+
+
+.right-sale{
+    display: flex;
+    column-gap: inherit;    
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.item-online-icon{
+    background: var( --color-primry);
+    color: white;
+    display: flex;
+    padding: 0.4rem;
+    border-radius: 50%;
+
+}
+.Offline-oder-icon{
+    background: var(  --color-danger);
+    color: white;
+    display: flex;
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+.new-customers-icon{
+    background: var(--color-success);
+    color: white;
+    display: flex;
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+.add-product{
+    background-color: transparent;
+    border: 2px dotted var(--color-primry);
+    color: var(--color-primry);
+    justify-content: center;
+    border-radius: var(--card-padding);
+    display: flex;
+    align-items: center;
+}
+.add-product div{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+}
+.add-product div h3 {
+    font-weight: 600;
+
+}
+
